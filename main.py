@@ -1,10 +1,13 @@
-from time import gmtime, srtftime
+#using library time
+import time
+print("Hello, World!")
+time.sleep(1)
+print("Você deve aguardar 5 segundos para ver a próxima mensagem.")
+time.sleep(5)
+print("Execução finalizada!" )
 
-semaforo = "amarelo"
-
-if (semaforo == "verde") :
-    print("Liberador!")
-else: 
-    print("Aguarde!")
-
-srtftime("%a, %H, %i", gmtime())
+#using condictionals
+x = "Start"
+lista = ["Stop", "Start", "Pause", "Refresh"]
+if x in lista:
+    print("A variável x está na lista.")
